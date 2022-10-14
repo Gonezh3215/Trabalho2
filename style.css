@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #060606;
+    background-color: #1b2028;
 }
 
 button,
@@ -27,15 +27,16 @@ a {
     padding: 3rem;
     width: 90%;
     max-width: 300px;
-    background-color: #1b2028;
+    background-color: #293852;
     border-radius: 16px;
+
     position: relative;
-    border: 3px solid transparent;
+    border: 10px solid #293852;
     background-clip: padding-box;
     text-align: center;
     color: #f1f3f3;
-    background-image: linear-gradient(135deg,
-            rgba(117, 46, 124, 0.35), rgba(115, 74, 88, 0.1) 15%, #1b2028 20%, #1b2028 100%);
+    /*background-image: linear-gradient(135deg,
+            rgba(117, 46, 124, 0.35), rgba(115, 74, 88, 0.1) 15%, #1b2028 20%, #1b2028 100%);*/
 }
 
 .profile:after {
@@ -65,13 +66,14 @@ a {
     transform: translate(-50%, -50%);
     width: 100%;
 }
+
 .profile-username {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 1.5rem;
 }
 
-.profile-user-handle{
+.profile-user-handle {
     color: #7d8396;
 }
 
@@ -83,11 +85,11 @@ a {
 
 }
 
-.profile-actions > * {
+.profile-actions>* {
     margin: 0 0.25rem;
-} 
+}
 
-.btn{
+.btn {
     border: 0;
     background-color: transparent;
     padding: 0;
@@ -99,20 +101,22 @@ a {
     line-height: 1;
     transition: 0.15s ease;
 }
-.btn--primary{
+
+.btn--primary {
     border-radius: 99em;
     background-color: #3772ff;
     background-image: linear-gradient(135deg,
-    #5587ff, #3772ff);
+            #5587ff, #3772ff);
     color: #fff;
     padding: 0 1.375em;
 }
 
-.btn--primary:hover, .btn--primary:focus{
+.btn--primary:hover,
+.btn--primary:focus {
     background-size: 150%;
 }
 
-.btn--icon{
+.btn--icon {
     height: 46px;
     width: 46px;
     border-radius: 50%;
@@ -124,15 +128,16 @@ a {
     font-size: 1.252em;
 }
 
-.btn--icon:hover, .btn--icon:focus{
+.btn--icon:hover,
+.btn--icon:focus {
     border-color: #7d8396;
 }
 
-.profile-links{
+.profile-links {
     margin-top: 3.5rem;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #7d8296;
     margin-left: 0.375rem;
@@ -141,4 +146,19 @@ a {
 
 .link i {
     font-size: 1.25rem;
+}
+
+.text{
+    border: 2px solid #293852;
+    background-color: #293852;
+    border-radius: 10px;
+    padding: 8px;
+    color: #f1f3f3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+
+ul{
+    color: #f1f3f3;
 }
